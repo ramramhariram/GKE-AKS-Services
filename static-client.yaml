@@ -39,7 +39,7 @@ spec:
       annotations:
         consul.hashicorp.com/connect-inject: 'true'
         consul.hashicorp.com/transparent-proxy: 'false'
-        consul.hashicorp.com/connect-service-upstreams: 'static-server:8080:gcp'
+        consul.hashicorp.com/connect-service-upstreams: 'static-server:8080'
       labels:
         app: static-client
     spec:
