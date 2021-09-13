@@ -20,7 +20,6 @@ spec:
     metadata: 
       annotations:
         consul.hashicorp.com/connect-inject: "false"
-  #      consul.hashicorp.com/transparent-proxy: 'false'
 
   backoffLimit: 4
 
